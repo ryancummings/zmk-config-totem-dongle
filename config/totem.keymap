@@ -115,12 +115,12 @@
             >;
         };
 
-        QwertyLeftNumRight {
+        Numpad {
             bindings = <
-        &kp Q  &kp W  &kp E   &kp R   &kp T     &kp EQUAL     &kp N7  &kp N8  &kp N9  &kp PLUS
-        &kp A  &kp S  &kp D   &kp F   &kp G     &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp MINUS
-&trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH   &trans
-                      &trans  &trans  &trans    &trans        &trans  &trans
+        &kp M   &kp N7  &kp N8  &kp N9  &kp C        &trans  &trans  &trans  &trans  &trans
+        &kp X   &kp N4  &kp N5  &kp N6  &kp SPACE    &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0  &kp N1  &kp N2  &kp N3  &kp DOT      &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans       &trans  &trans  &trans
             >;
         };
     };
