@@ -60,9 +60,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp B  &kp L  &kp D  &kp W  &kp Z    &kp SEMI   &kp F  &kp O       &kp U         &kp J
-        &kp N  &kp R  &kp T  &kp S  &kp G    &kp Y      &kp H  &kp A       &kp E         &kp I
-&tog 6  &kp Q  &kp X  &kp M  &kp C  &kp V    &kp K      &kp P  &kp KP_DOT  &kp KP_COMMA  &kp KP_SLASH  &kp LA(SPACE)
+        &kp B  &kp L  &kp D  &kp W  &kp Z    &kp SEMI   &kp F  &kp O       &kp U      &kp J
+        &kp N  &kp R  &kp T  &kp S  &kp G    &kp Y      &kp H  &kp A       &kp E      &kp I
+&tog 6  &kp Q  &kp X  &kp M  &kp C  &kp V    &kp K      &kp P  &kp PERIOD  &kp COMMA  &kp SLASH  &kp LA(SPACE)
                       &none  &mo 2  &mo 1    &kp SPACE  &mo 3  &none
             >;
         };
