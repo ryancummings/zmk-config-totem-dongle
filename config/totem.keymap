@@ -60,10 +60,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp B  &kp L  &kp D  &kp W  &kp Z    &kp SEMI   &kp F  &kp O       &kp U      &kp J
-        &kp N  &kp R  &kp T  &kp S  &kp G    &kp Y      &kp H  &kp A       &kp E      &kp I
-&tog 6  &kp Q  &kp X  &kp M  &kp C  &kp V    &kp K      &kp P  &kp PERIOD  &kp COMMA  &kp SLASH  &kp LA(SPACE)
-                      &none  &mo 2  &mo 1    &kp SPACE  &mo 3  &none
+                  &kp B  &kp L  &kp D         &kp W  &kp Z    &kp SEMI   &kp F  &kp O       &kp U      &kp J
+                  &kp N  &kp R  &kp T         &kp S  &kp G    &kp Y      &kp H  &kp A       &kp E      &kp I
+&kp LEFT_CONTROL  &kp Q  &kp X  &kp M         &kp C  &kp V    &kp K      &kp P  &kp PERIOD  &kp COMMA  &kp SLASH  &kp LEFT_GUI
+                                &kp LEFT_ALT  &mo 2  &mo 1    &kp SPACE  &mo 3  &mo 4
             >;
         };
 
@@ -74,10 +74,10 @@
         base_shift {
             label = "BASE_SHIFT";
             bindings = <
-       &kp LS(B)  &kp LS(L)  &kp LS(D)  &kp LS(W)  &kp LS(Z)    &kp COLON  &kp LS(F)  &kp LS(O)       &kp LS(U)          &kp LS(J)
-       &kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)  &kp LS(G)    &kp LS(Y)  &kp LS(H)  &kp LS(A)       &kp LS(E)          &kp LS(I)
-&none  &kp LS(Q)  &kp LS(X)  &kp LS(M)  &kp LS(C)  &kp LS(V)    &kp LS(K)  &kp LS(P)  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp QUESTION  &none
-                             &trans     &trans     &trans       &trans     &trans     &trans
+         &kp LS(B)  &kp LS(L)  &kp LS(D)  &kp LS(W)    &kp LS(Z)    &kp COLON  &kp LS(F)      &kp LS(O)       &kp LS(U)          &kp LS(J)
+         &kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)    &kp LS(G)    &kp LS(Y)  &kp LS(H)      &kp LS(A)       &kp LS(E)          &kp LS(I)
+&kp ESC  &kp LS(Q)  &kp LS(X)  &kp LS(M)  &kp LS(C)    &kp LS(V)    &kp LS(K)  &kp LS(P)      &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp QUESTION  &none
+                               &trans     &kp LS(TAB)  &trans       &kp TAB    &kp BACKSPACE  &kp DELETE
             >;
         };
 
@@ -103,7 +103,7 @@
             bindings = <
         &kp EQUAL     &kp N7  &kp N8  &kp N9  &kp PLUS     &kp EQUAL     &kp N7  &kp N8  &kp N9  &kp PLUS
         &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp MINUS    &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp MINUS
-&trans  &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH     &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH   &trans
+&tog 6  &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH     &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH   &trans
                               &trans  &trans  &trans       &trans        &trans  &trans
             >;
         };
