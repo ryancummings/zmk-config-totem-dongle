@@ -121,7 +121,7 @@
             bindings = <
         &none  &kp N7  &kp N8  &kp N9         &none        &none      &kp N7         &kp N8        &kp N9        &none
         &none  &kp N4  &kp N5  &kp N6         &kp SPACE    &none      &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp SPACE
-&trans  &none  &kp N1  &kp N2  &kp N3         &kp DOT      &kp N0     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans
+&tog 6  &none  &kp N1  &kp N2  &kp N3         &kp DOT      &kp N0     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &tog 6
                        &none   &kp BACKSPACE  &kp ENTER    &kp ENTER  &kp BACKSPACE  &none
             >;
         };
