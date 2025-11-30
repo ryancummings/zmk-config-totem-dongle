@@ -74,10 +74,10 @@
         base_shift {
             label = "BASE_SHIFT";
             bindings = <
-       &kp LS(B)  &kp LS(L)  &kp LS(D)  &kp LS(W)  &kp LS(Z)    &kp COLON  &kp LS(F)  &kp LS(O)       &kp LS(U)          &kp LS(J)
-       &kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)  &kp LS(G)    &kp LS(Y)  &kp LS(H)  &kp LS(A)       &kp LS(E)          &kp LS(I)
-&none  &kp LS(Q)  &kp LS(X)  &kp LS(M)  &kp LS(C)  &kp LS(V)    &kp LS(K)  &kp LS(P)  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp QUESTION  &none
-                             &none      &none      &trans       &none      &none      &none
+        &kp LS(B)  &kp LS(L)  &kp LS(D)  &kp LS(W)  &kp LS(Z)    &kp COLON  &kp LS(F)  &kp LS(O)       &kp LS(U)          &kp LS(J)
+        &kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)  &kp LS(G)    &kp LS(Y)  &kp LS(H)  &kp LS(A)       &kp LS(E)          &kp LS(I)
+&trans  &kp LS(Q)  &kp LS(X)  &kp LS(M)  &kp LS(C)  &kp LS(V)    &kp LS(K)  &kp LS(P)  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp QUESTION  &trans
+                              &trans     &none      &trans       &kp SPACE  &none      &none
             >;
         };
 
